@@ -1,0 +1,810 @@
+/*
+CSS based on template MU Material from http://www.markups.io/
+*/
+
+
+/* ToC
+==================================================
+
+  1. Typography
+  2. Preloader
+  2. Home
+  3. About
+  4. Skills
+  5. Experience
+  6. Education
+  7. Projects
+  0. RESPONSIVE CSS
+
+*/
+
+
+/*--------------------*/
+/*    1. Typography   */
+/*--------------------*/
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Roboto",sans-serif;
+}
+
+.custom-nav li a{
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+nav .brand-logo {    
+  font-weight: bold;  
+  text-transform: uppercase;
+}
+
+.side-nav a {  
+  text-transform: uppercase;
+}
+
+.side-nav li:hover{
+  color: #fff;
+}
+
+.side-nav li a:hover{
+  color: #fff;
+}
+
+.main-wrapper{
+  display: inline;
+  width: 100%;
+  float: left;
+}
+
+.white-text{
+	color:#fff;
+}
+
+
+/*--------------------*/
+/*    2. Preloader    */
+/*--------------------*/
+
+
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#fff; /* change if the mask should have another color then white */
+  z-index:99999; /* makes sure it stays on top */ 
+}
+
+.progress{
+  background-color: #ccc;
+}
+
+
+/*--------------------*/
+/*      3. Home       */
+/*--------------------*/
+
+
+#home {
+  background-image: url("images/home-img1.jpg");
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 420px;
+  position: relative;
+  width: 100%;
+}
+
+#home .overlay-section {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+.home-inner {
+  display: inline;
+  float: left;
+  padding: 57px 100px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.home-title{
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.home-inner > p{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+}
+
+.call-to-about {
+  bottom: -68px;  
+  left: 47.5%;
+  position: absolute;
+}
+
+#banner{
+  display: inline;
+  float: left;
+  width: 100%;
+  min-height: 200px;
+}
+
+
+/*--------------------*/
+/*     4. About       */
+/*--------------------*/
+
+
+#about{
+  background-color: #fafafa;
+  float: left;
+  display: inline;
+  padding: 80px 0px; 
+  width: 100%;  
+}
+
+.about-inner{
+  display: inline;
+  min-height: 300px;
+  float: left;
+  width: 100%;
+}
+
+.about-inner-left{  
+  display: inline;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+.profile-img {
+  border: 5px solid #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  height: 130px;
+  margin: 0 auto;
+  width: 140px;
+}
+
+.about-inner-right{ 
+  min-height: 250px;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.about-inner-right > p{
+  color: #727272;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+.about-inner-right > h3{
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: 600;  
+  text-transform: uppercase;
+}
+
+.personal-information{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.personal-information > h3{
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: 600;  
+  text-transform: uppercase;
+}
+
+.personal-information ul li{
+  border-bottom: 1px solid #eeeeee;
+  color: #727272;
+  font-size: 15px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.resume-btn{
+  margin-top: 160px;
+  margin-left: 50px;
+}
+
+
+/*--------------------*/
+/*     4. Skills      */
+/*--------------------*/
+
+
+#skills{
+	display: inline;
+  	padding: 60px 0;
+  	float: left;
+  	width: 100%;
+}
+
+.skills-inner{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.section-title{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.skills-title{
+  color: #fff;
+}
+
+.skills-inner p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.skills-area{
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.single-skill-title {
+  border-bottom: 1px solid #eee;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.single-skill .card .card-content {  
+  padding: 0 20px 20px;
+}
+
+.card-subtitle {
+  border-bottom: 1px solid #eee;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: #727272;
+  font-weight: 500;
+}
+
+.single-skill ul {
+  padding-left: 25px;
+}
+
+.single-skill ul>li{  
+  list-style: disc;
+  color: #555;
+  font-weight: 300;
+}
+
+
+/*--------------------*/
+/*   5. Experience    */
+/*--------------------*/
+
+
+#experience{  
+  display: inline;
+  padding: 60px 0;
+  float: left;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.experience-inner{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.experience-area{
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.single-experience-title {
+  border-bottom: 1px solid #eee;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #727272;
+}
+
+.single-experience .card-content, .single-experience .card-reveal{  
+  padding: 0px 20px 20px;
+}
+
+.single-experience .card-title {
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.single-experience .card-subtitle {
+  padding-top: 5px;
+}
+
+.single-experience p {
+  padding-top: 15px;
+  font-weight: 300;
+}
+
+.single-experience ul {
+  padding-left: 25px;
+}
+
+.single-experience ul>li{  
+  list-style: disc;
+  color: #555;
+}
+
+
+/*--------------------*/
+/*   6. Education     */
+/*--------------------*/
+
+
+#education{  
+  display: inline;
+  padding: 60px 0;
+  float: left;
+  width: 100%;
+}
+
+.education-inner{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.education-title{
+  color: #fff;
+}
+
+.education-area{
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.single-education-title {
+  border-bottom: 1px solid #eee;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #727272;
+}
+
+.single-education .card-content, .single-education .card-reveal{  
+  padding: 0px 20px 20px;
+}
+
+.single-education .card-title {
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.single-education .card-subtitle {
+  padding-top: 5px;
+}
+
+.single-education p {
+  padding-top: 15px;
+  font-weight: 300;
+}
+
+.single-education ul {
+  padding-left: 25px;
+}
+
+.single-education ul>li{  
+  list-style: disc;
+  color: #555;
+}
+
+
+/*--------------------*/
+/*   7. Projects    */
+/*--------------------*/
+
+
+#projects{  
+  display: inline;
+  padding: 60px 0;
+  float: left;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.projects-inner{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.projects-inner p{
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.projects-area{
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.single-project{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.single-project-content {
+  padding-top: 0 !important;
+}
+
+.single-project-content h2,
+.single-project-content h2 a {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.single-project .card .card-image {
+  padding: 5px;
+}
+
+/* Individual project pages */
+.parallax-container {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax {
+  bottom: 0;
+  left: -1px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.parallax img{
+  display:block;
+}
+
+/*--------------------*/
+/*     0. Footer      */
+/*--------------------*/
+
+
+#footer{
+  display: inline;  
+  float: left;  
+  width: 100%;  
+}
+
+.footer-top{
+  display: inline;
+  padding: 60px 0;  
+  float: left;  
+  width: 100%;
+}
+
+.footer-top-inner{
+  display: inline;  
+  float: left;  
+  width: 100%;  
+}
+
+.footer-title{
+  color: #fff;
+}
+
+.footer-top-inner > p{
+  color: #fff;
+}
+
+.contact{
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.contact-form {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  display: inline;
+  border-radius: 4px;
+  padding: 20px;
+  float: left;
+  width: 100%;
+}
+
+.contact-form .input-label {
+  font-size: 15px;
+  left: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="time"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="tel"], input[type="number"],
+input[type="search"],
+textarea.materialize-textarea {
+  border-color: #ccc;
+}
+
+.textarea-input textarea{
+  min-height: 116px;
+}
+
+.submit-btn:hover,
+.submit-btn:focus{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  padding-left: 10px;
+}
+
+.contact-map{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  height: 500px;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.contact-map iframe{
+  border-radius: 4px;
+  margin-bottom: -5px;
+}
+
+.footer-bottom{
+  background-color: #fff;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.footer-inner {
+  display: inline;
+  float: left;
+  padding-top: 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.design-info {
+  color: #555;
+  display: inline-block; 
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.design-info a{
+  color: #555;
+}
+
+.copyright-info {
+  color: #555;
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  line-height: 25px;  
+}
+
+.up-btn {
+  background-color: #fff;
+  color: #000;
+  left: 47.7%;
+  position: absolute;
+  top: -28px;
+}
+
+.up-btn:hover,.up-btn:focus{
+  background-color: #fff;
+}
+
+.overlay-header{
+  opacity: 0.7;
+  /*background: rgba(255, 255, 255, 0.92) none repeat scroll 0 0;*/
+  height: 100%;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.overlay-content {
+  height: 100%;
+  left: 0;
+  padding: 30px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.overlay-content .meta-media{
+  text-align: left;
+}
+
+.overlay-content .single-meta{
+  color: #fff;
+}
+
+.overlay-content .single-meta a{
+  color: #fff;
+}
+
+
+/*--------------------*/
+/*   0. Responsive    */
+/*--------------------*/
+
+
+@media only screen and (min-width : 993px) {
+  .container {
+    width: 87%; }
+}
+
+@media only screen and (min-width : 601px) {
+  .container {
+    width: 85%; }
+}
+
+@media(max-width:1199px ){
+	.custom-nav li a { padding: 25px 15px;}
+	.contact-map{height: 492px;}
+}
+
+@media(max-width:991px ){
+	.custom-nav li a { padding: 25px 20px;}
+	.call-to-about {bottom: -95px;left: 45.5%;}
+	.home-inner {padding: 30px;}
+  	.home-title {font-size: 55px;}
+  	.resume-btn { margin-top: 30px;}
+  	.blog-post-content h2, .blog-post-content h2 a {font-size: 16px;}
+  	.card .card-content p {font-size: 13px;}
+  	.card .card-action a {margin-right: 0px;}
+  	.contact-map{height: 484px;}
+  	.up-btn {left: 45.5%;}
+}
+
+@media(max-width:767px ){
+	.home-inner { padding: 10px;}
+  	.home-title {font-size: 35px;}
+  	.left-sidebar{display: table-footer-group;float: none !important;}
+ 	.swith-to-left{display: table-header-group;float: none !important;}
+ 	.header-title {font-size: 30px;}
+ 	.single-sidebar h3 {font-size: 18px;}
+ 	.blog-content h1 {font-size: 35px;}
+	.blog-content h2{font-size: 30px;}
+  	.blog-content h3 {font-size: 21px;}
+  	.blog-content h4 {font-size: 18px;}
+  	.blog-content h5{font-size: 15px;}
+  	.blog-content p{font-size: 13px;}
+  	.blog-content blockquote p {font-size: 15px;}
+  	.blog-post-content h2, .blog-post-content h2 a {font-size: 15px;}
+  	.card .card-content p {font-size: 11px;}
+  	.pagination li {height: 25px;width: 25px;}
+  	.custom-pagination li a {font-size: 12px;line-height: 25px;}
+}
+
+@media(max-width:480px ){
+	nav .brand-logo { font-size: 1.1rem; }
+	.call-to-about {left: 43%;bottom: -165px;}
+	.side-nav {width: 200px;}
+  	.side-nav a {height: 45px;line-height: 50px;}
+  	.home-inner { padding: 0;}
+  	.home-title {font-size: 35px;}
+  	.home-inner > p {font-size: 16px;}
+  	.about-inner-left {margin-bottom: 20px;}
+  	.about-inner-right > h3 { font-size: 20px;}
+  	.about-inner-right > p { font-size: 13px;}
+  	.personal-information > h3 {font-size: 20px;}
+  	.personal-information ul li {font-size: 13px;}
+  	.title {font-size: 25px;line-height: 1; margin-bottom: 30px;}
+  	.skill-inner p {font-size: 13px;line-height: 25px;}
+  	.experience-inner > p {font-size: 13px;line-height: 25px;}
+  	.contact-map {height: 350px;margin-top: 30px;}
+  	.copyright-info {text-align: center; width: 100%;margin-top: 5px;}
+  	.design-info {text-align: center;width: 100%;margin-top: 15px;margin-bottom: 0px;}
+  	.up-btn {left: 43%;}
+  	.header-title { font-size: 20px;}
+  	.blog-post-content h2, .blog-post-content h2 a {font-size: 16px;}
+  	.card .card-content p {font-size: 13px;}
+  	.pagination li {height: 25px;width: 25px;}
+  	.custom-pagination li a {font-size: 12px;line-height: 25px;}
+}
+
+@media(max-width:360px ){
+	.call-to-about {left: 40.7%;bottom: -145px;}
+	.resume-btn { margin-left: 0;}
+	.copyright-info { font-size: 12px;}
+	.design-info {font-size: 13px;}
+	.up-btn {left: 40.7%;}
+  	.personal-information > h3 {font-size: 18px;}
+  	.reply-btn {font-size: 12px;padding: 6px 8px;}
+  	.blog-content h2 {margin-bottom: 0;}
+  	.pagination li {width: 25px;margin: 0 5px;}
+}
+
+@media(max-width:320px ){
+	nav .brand-logo { font-size: 1.1rem; }
+	.call-to-about {bottom: -120px; left: 39%;}
+	.home-title { font-size: 30px;}
+  	.experience-title { font-size: 14px;}
+  	.single-skill-title { font-size: 17px !important;}
+  	.up-btn {left: 39%;}
+  	.header-title {font-size: 16px;line-height: 30px;}
+  	.children {margin-left: 10px;}
+    .pagination li {width: 25px;margin: 0 5px;}
+}

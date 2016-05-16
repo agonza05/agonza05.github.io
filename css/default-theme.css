@@ -1,0 +1,200 @@
+/*
+CSS based on template MU Material from http://www.markups.io/
+
+Stylesheet for easy color change of the website
+
+
+
+     ToC
+==================================================
+
+  1. General
+  2. Home
+  3. About
+  4. Skills
+  5. Experience
+  6. Education
+
+*/
+
+
+/*--------------------*/
+/*     1. General     */
+/*--------------------*/
+
+
+/* Preloader */
+.progress .indeterminate {
+  background-color: #ffd133;
+}
+
+/* Main menu */
+.navbar-fixed nav {
+  background-color: #ffd133;
+}
+
+/* Main menu mobile */
+.side-nav li:hover{
+  background-color: #ffd133;  
+}
+
+/* Links */
+a {
+  color: #ffd133;
+}
+
+/* Buttoms */
+.btn, .btn-large{
+  background-color: #ffd133;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #ffd133;
+}
+
+/* Texts */
+.colored-text{
+  color: #ffd133;
+}
+
+/* Buttom to About */
+.call-to-about i{
+  color: #ffd133;
+}
+
+
+/*--------------------*/
+/*      2. Home       */
+/*--------------------*/
+
+
+/* Name on title */
+.home-title span{
+  color: #ffd133;
+}
+
+
+/*--------------------*/
+/*     3. About       */
+/*--------------------*/
+
+/* About label */
+.about-inner-right > h3{
+  color: #ffd133;
+}
+
+/* Personal information label */
+.personal-information > h3{
+  color: #ffd133;
+}
+
+
+/*--------------------*/
+/*    4. Skills       */
+/*--------------------*/
+
+
+/* Skills section background */
+#skills{
+  background-color: #ffd133;
+}
+
+
+/*--------------------*/
+/*  5. Experience     */
+/*--------------------*/
+
+/* Experience section title */
+.experience-title{
+  color: #ffd133;
+}
+
+/* Icons */
+.single-experience .card-title i {
+  color: #ffd133;
+}
+
+
+/*--------------------*/
+/*  6. Education      */
+/*--------------------*/
+
+/* Education section title */
+#education{
+  background-color: #ffd133;
+}
+
+/* Icons */
+.single-education .card-title i {
+  color: #ffd133;
+}
+
+
+/*--------------------*/
+/*   7. Projects      */
+/*--------------------*/
+
+/* Projects section title */
+.projects-title{
+  color: #ffd133;
+}
+
+
+/*--------------------*/
+/*    0. Footer       */
+/*--------------------*/
+
+
+/* Footer section background */
+.footer-top{
+  background-color:#ffd133; 
+}
+
+/* Form colors */
+input[type="text"]:focus:not([readonly]) + label,
+input[type="password"]:focus:not([readonly]) + label,
+input[type="email"]:focus:not([readonly]) + label,
+input[type="url"]:focus:not([readonly]) + label,
+input[type="time"]:focus:not([readonly]) + label,
+input[type="date"]:focus:not([readonly]) + label,
+input[type="datetime-local"]:focus:not([readonly]) + label,
+input[type="tel"]:focus:not([readonly]) + label,
+input[type="number"]:focus:not([readonly]) + label,
+input[type="search"]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #ffd133;
+}
+
+input[type="text"]:focus:not([readonly]),
+input[type="password"]:focus:not([readonly]),
+input[type="email"]:focus:not([readonly]),
+input[type="url"]:focus:not([readonly]),
+input[type="time"]:focus:not([readonly]),
+input[type="date"]:focus:not([readonly]),
+input[type="datetime-local"]:focus:not([readonly]),
+input[type="tel"]:focus:not([readonly]),
+input[type="number"]:focus:not([readonly]),
+input[type="search"]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #ffd133;
+  box-shadow: 0 1px 0 0 #ffd133;
+}
+
+/* Form buttoms */
+.submit-btn{
+  color: #ffd133;  
+}
+
+.submit-btn:hover,
+.submit-btn:focus{
+  background-color: #ffd133;
+}
+
+.overlay-header{
+  background-color: #ffd133;
+}
+
+/* Up buttoms */
+.up-btn i{
+  color: #ffd133;
+}
