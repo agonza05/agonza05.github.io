@@ -741,6 +741,11 @@ textarea.materialize-textarea {
 	.contact-map{height: 484px;}
 }
 
+@media screen and (max-width:801px ){
+	#home {height: 440px;}
+	.call-to-about {bottom: -75px;}
+	.resume-btn { margin-top: 30px;}
+}
 
 
 /*
