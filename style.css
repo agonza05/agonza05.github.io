@@ -646,6 +646,7 @@ textarea.materialize-textarea {
   font-size: 14px;
   line-height: 25px;
   margin-top: 20px;
+  font-weight:300;
 }
 
 .design-info a{
