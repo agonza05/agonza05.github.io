@@ -753,6 +753,16 @@ textarea.materialize-textarea {
 	.home-inner {padding: 10px;}
 	.home-inner > p {font-size: 16px;}
 	.section-title {font-size: 30px;}
+	#skills {padding: 35px 0;}
+	#experience {padding: 35px 0;}
+	#education {padding: 35px 0;}
+	#projects {padding: 35px 0;}
+	.footer-top {padding: 35px 0;}
+	.skills-area{margin-top: 5px;}
+	.experience-area{margin-top: 5px;}
+	.education-area{margin-top: 5px;}
+	.projects-area{margin-top: 5px;}
+	.contact{margin-top: 5px;}
 }
 
 /*
