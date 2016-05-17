@@ -193,7 +193,6 @@ nav .brand-logo {
 
 .about-inner-right > p{
   color: #727272;
-  font-size: 15px;
   line-height: 28px;
   margin-bottom: 35px;
 }
@@ -730,6 +729,7 @@ textarea.materialize-textarea {
 	#home {height: 390px;}
 	.home-title {font-size: 60px;}
 	.call-to-about {bottom: -55px;}
+	.single-skill-title {line-height: normal;}
 }
 
 
