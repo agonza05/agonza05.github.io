@@ -220,7 +220,6 @@ nav .brand-logo {
 .personal-information ul li{
   border-bottom: 1px solid #eeeeee;
   color: #727272;
-  font-size: 15px;
   margin-bottom: 12px;
   padding-bottom: 12px;
 }
@@ -569,6 +568,7 @@ nav .brand-logo {
   padding: 20px;
   float: left;
   width: 100%;
+  margin-bottom:20px;
 }
 
 .contact-form .input-label {
@@ -747,14 +747,16 @@ textarea.materialize-textarea {
 	.resume-btn { margin-top: 30px;}
 }
 
+@media(max-width:601px ){
+	#home {height: 320px;}
+	.home-title {font-size: 35px;}
+	.home-inner {padding: 10px;}
+	.home-inner > p {font-size: 16px;}
+	.section-title {font-size: 30px;}
+}
 
 /*
-@media(max-width:1023px ){
-}
-@media(max-width:799px ){
-}
-@media(max-width:767px ){
-}
+
 @media(max-width:639px ){
 }
 @media(max-width:599px ){
