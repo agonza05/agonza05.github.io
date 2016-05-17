@@ -748,7 +748,7 @@ textarea.materialize-textarea {
 }
 
 @media(max-width:601px ){
-	#home {height: 320px;}
+	#home {height: 340px;}
 	.home-title {font-size: 35px;}
 	.home-inner {padding: 10px;}
 	.home-inner > p {font-size: 16px;}
@@ -758,10 +758,10 @@ textarea.materialize-textarea {
 	#education {padding: 35px 0;}
 	#projects {padding: 35px 0;}
 	.footer-top {padding: 35px 0;}
-	.skills-area{margin-top: 5px;}
+	.skills-area{margin-top: 20px;}
 	.experience-area{margin-top: 5px;}
 	.education-area{margin-top: 5px;}
-	.projects-area{margin-top: 5px;}
+	.projects-area{margin-top: 20px;}
 	.contact{margin-top: 5px;}
 }
 
