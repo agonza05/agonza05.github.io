@@ -654,7 +654,7 @@ textarea.materialize-textarea {
 .up-btn {
   background-color: #fff;
   color: #000;
-  left: 47.7%;
+  left: 43%;
   position: absolute;
   top: -28px;
 }
@@ -768,7 +768,8 @@ textarea.materialize-textarea {
 
 @media(max-width:480px ){
 	nav .brand-logo { font-size: 1.1rem; }
-	.call-to-about {left: 43%;bottom: -165px;}
+	#home {height: 360px;}
+	.call-to-about {left: 43%;bottom: -90px;}
 	.side-nav {width: 200px;}
 	.side-nav a {height: 45px;line-height: 50px;}
   	.home-inner { padding: 0;}
