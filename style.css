@@ -747,7 +747,7 @@ textarea.materialize-textarea {
 	.resume-btn { margin-top: 30px;}
 }
 
-@media(max-width:600px ){
+@media screen and (max-width:600px ){
 	#home {height: 320px;}
 	.home-title {font-size: 35px;}
 	.home-inner {padding: 10px;}
@@ -766,7 +766,11 @@ textarea.materialize-textarea {
 	.contact{margin-top: 5px;}
 }
 
-@media(max-width:480px ){
+@media screen and (max-width:505px ){
+	#home {height: 380px;}
+}
+
+@media screen and (max-width:480px ){
 	nav .brand-logo { font-size: 1.1rem; }
 	#home {height: 360px;}
 	.call-to-about {left: 43%;bottom: -90px;}
