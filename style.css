@@ -737,7 +737,14 @@ textarea.materialize-textarea {
 }
 
 @media(max-width:1023px ){
-	.home-inner {padding: 57px 80px;}
+	.home-inner {padding: 50px;}
+	.call-to-about {bottom: -95px;left: 45.5%;}
+}
+
+@media(max-width:991px ){
+	.custom-nav li a { padding: 25px 20px;}
+	.home-inner {padding: 30px;}
+  	.home-title {font-size: 55px;}
 	.call-to-about {bottom: -95px;left: 45.5%;}
 }
 
