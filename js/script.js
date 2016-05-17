@@ -30,9 +30,9 @@ jQuery(function($){
     /* ----------------------- */
 	/*     2. Mobile menu      */
 	/* ----------------------- */
-  
-	jQuery(".button-collapse").sideNav();
-	/* End mobile menu */
+  	
+  	/* Menu icon appear in mobile view */
+	jQuery(".button-collapse").sideNav({closeOnClick: true});
  
     /* ----------------------- */
 	/*   3. Menu scrolling     */
@@ -98,7 +98,6 @@ jQuery(function($){
     		{scrollTop: $("#about").offset().top},
         	'slow');
 	});
-	/* End button to About */
 	
 	/* ----------------------- */
 	/*   5. Hire Me button     */
@@ -110,7 +109,6 @@ jQuery(function($){
     		{scrollTop: $("#footer").offset().top},
         	'slow');
 	});
-	/* End Hire Me button */
 	
 	/* ----------------------- */
 	/*    6. Button to Up      */
@@ -121,7 +119,6 @@ jQuery(function($){
         scrollTop: $("#header").offset().top},
         'slow');
 	});
-	/* End button to up */
 	
 	/* ----------------------- */
 	/*  7. Parallax Headers    */
