@@ -264,7 +264,6 @@ nav .brand-logo {
 
 .skills-inner p{
   color: #fff;
-  font-size: 16px;
   line-height: 30px;
   font-weight: 300;
 }
@@ -278,7 +277,6 @@ nav .brand-logo {
 
 .single-skill-title {
   border-bottom: 1px solid #eee;
-  font-size: 20px;
   font-weight: 500;
   line-height: 1.7;
   margin-bottom: 0;
@@ -299,15 +297,10 @@ nav .brand-logo {
   padding-top: 20px;
   color: #727272;
   font-weight: 500;
-  font-size: 15px;
 }
 
 .single-skill ul {
   padding-left: 25px;
-}
-
-.single-skill li {
-  font-size: 15px;
 }
 
 .single-skill ul>li{  
@@ -345,7 +338,6 @@ nav .brand-logo {
 
 .single-experience-title {
   border-bottom: 1px solid #eee;
-  font-size: 20px;
   font-weight: 400;
   line-height: 1.7;
   margin-bottom: 0;
@@ -380,7 +372,6 @@ nav .brand-logo {
 }
 
 .single-experience li {
-  font-size: 15px;
   font-weight: 300;
 }
 
@@ -421,7 +412,6 @@ nav .brand-logo {
 
 .single-education-title {
   border-bottom: 1px solid #eee;
-  font-size: 20px;
   font-weight: 400;
   line-height: 1.7;
   margin-bottom: 0;
@@ -472,7 +462,6 @@ nav .brand-logo {
 }
 
 .projects-inner p{
-  font-size: 16px;
   line-height: 30px;
   font-weight: 300;
 }
@@ -731,14 +720,13 @@ textarea.materialize-textarea {
 
 @media screen and (max-width:1199px ){
 	.custom-nav li a { padding: 25px 15px;}
-	.contact-map{height: 492px;}
 }
 
 @media screen and (max-width:1025px ){
-	.home-inner {padding: 50px 80px;}
-	.home-title {font-size: 55px;}
-	.call-to-about {bottom: -95px;left: 45.5%;}
-	.contact-map{height: 460px;}
+	.home-inner {padding: 50px 20px;}
+	#home {height: 390px;}
+	.home-title {font-size: 60px;}
+	.call-to-about {bottom: -55px;}
 }
 
 
