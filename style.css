@@ -766,7 +766,7 @@ textarea.materialize-textarea {
 	.contact{margin-top: 5px;}
 }
 
-@media(max-width:480px ){
+@media(max-width:490px ){
 	nav .brand-logo { font-size: 1.1rem; }
 	#home {height: 360px;}
 	.call-to-about {left: 43%;bottom: -90px;}
@@ -780,6 +780,8 @@ textarea.materialize-textarea {
   	.single-experience-title {font-size: 15px;}
   	.single-education-title {font-size: 15px;}
   	.single-project-content h2 a {font-size: 14px;}
+  	.single-education .card-title {font-size: 15px;}
+  	.single-experience .card-title {font-size: 15px;}
 }
 
 @media(max-width:360px ){
@@ -789,6 +791,8 @@ textarea.materialize-textarea {
   	.single-experience-title {font-size: 13px;}
   	.single-education-title {font-size: 13px;}
   	.single-project-content h2 a {font-size: 13px;}
+  	.single-education .card-title {font-size: 13px;}
+  	.single-experience .card-title {font-size: 13px;}
 }
 
 /*
