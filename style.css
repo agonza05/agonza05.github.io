@@ -766,7 +766,7 @@ textarea.materialize-textarea {
 	.contact{margin-top: 5px;}
 }
 
-@media(max-width:490px ){
+@media(max-width:480px ){
 	nav .brand-logo { font-size: 1.1rem; }
 	#home {height: 360px;}
 	.call-to-about {left: 43%;bottom: -90px;}
@@ -787,12 +787,12 @@ textarea.materialize-textarea {
 @media(max-width:360px ){
 	#home {height: 380px;}
 	.call-to-about {bottom: -80px;}
-  	.single-skill-title {font-size: 13px;}
-  	.single-experience-title {font-size: 13px;}
-  	.single-education-title {font-size: 13px;}
-  	.single-project-content h2 a {font-size: 13px;}
-  	.single-education .card-title {font-size: 13px;}
-  	.single-experience .card-title {font-size: 13px;}
+  	.single-skill-title {font-size: 15px;}
+  	.single-experience-title {font-size: 15px;}
+  	.single-education-title {font-size: 15px;}
+  	.single-project-content h2 a {font-size: 14px;}
+  	.single-education .card-title {font-size: 15px;}
+  	.single-experience .card-title {font-size: 15px;}
 }
 
 /*
