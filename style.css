@@ -736,6 +736,11 @@ textarea.materialize-textarea {
 	.call-to-about {bottom: -95px;left: 45.5%;}
 }
 
+@media(max-width:1023px ){
+	.home-inner {padding: 57px 80px;}
+	.call-to-about {bottom: -95px;left: 45.5%;}
+}
+
 /*
 @media(max-width:1023px ){
 }
