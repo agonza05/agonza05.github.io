@@ -766,7 +766,7 @@ textarea.materialize-textarea {
 	.contact{margin-top: 5px;}
 }
 
-@media(max-width:480px ){
+@media(max-width:481px ){
 	nav .brand-logo { font-size: 1.1rem; }
 	#home {height: 360px;}
 	.call-to-about {left: 43%;bottom: -90px;}
