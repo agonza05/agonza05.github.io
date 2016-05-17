@@ -748,11 +748,12 @@ textarea.materialize-textarea {
 }
 
 @media(max-width:601px ){
-	#home {height: 340px;}
+	#home {height: 320px;}
 	.home-title {font-size: 35px;}
 	.home-inner {padding: 10px;}
 	.home-inner > p {font-size: 16px;}
 	.section-title {font-size: 30px;}
+	#about {padding-bottom: 15px;}
 	#skills {padding: 35px 0;}
 	#experience {padding: 35px 0;}
 	#education {padding: 35px 0;}
