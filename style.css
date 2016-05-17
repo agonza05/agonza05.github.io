@@ -732,6 +732,7 @@ textarea.materialize-textarea {
 @media(max-width:1199px ){
 	.custom-nav li a { padding: 25px 15px;}
 	.contact-map{height: 492px;}
+	.home-inner {padding: 57px 80px;}
 	.call-to-about {bottom: -95px;left: 45.5%;}
 }
 
