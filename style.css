@@ -733,10 +733,12 @@ textarea.materialize-textarea {
 }
 
 @media screen and (max-width:991px ){
-	.custom-nav li a { padding: 25px 20px;}
 	.home-title {font-size: 55px;}
 	.call-to-about {bottom: -85px;}
 	.home-inner {padding: 30px;}
+	.single-skill-title {font-size: 19px;}
+	.resume-btn { margin-top: 30px;}
+	.contact-map{height: 484px;}
 }
 
 
