@@ -1,6 +1,5 @@
 /**
   @author agonza05
-  Based on a template from http://www.markups.io/
   
   ToC
   
@@ -42,11 +41,13 @@ jQuery(function($){
 	//Menu scrolling when item selected
 
 	// Cache selectors
-	var lastId,
-	topMenu = $(".menu-scroll"),
-	topMenuHeight = topMenu.outerHeight()+13,
+	var lastId;
+	topMenu = $(".menu-scroll");
+	topMenuHeight = topMenu.outerHeight()+13;
 	// All list items
-	menuItems = topMenu.find("a"),
+	menuItems = topMenu.find("a");
+	menuItems.splice(4,1);
+	menuItems.splice(9,1);
 	// Anchors corresponding to menu items
 	scrollItems = menuItems.map(function(){
 	  var item = $($(this).attr("href"));
@@ -56,7 +57,7 @@ jQuery(function($){
 	// Bind click handler to menu items
 	// so we can get a fancy scroll animation
 	menuItems.click(function(e){
-	  var href = $(this).attr("href"),
+	  var href = $(this).attr("href");
 	      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+15;
 	  jQuery('html, body').stop().animate({ 
 	      scrollTop: offsetTop
@@ -72,7 +73,7 @@ jQuery(function($){
 	   // Get id of current scroll item
 	   var cur = scrollItems.map(function(){
 	     if ($(this).offset().top < fromTop)
-	       return this;
+	       {return this;};
 	   });
 	   // Get the id of the current element
 	   cur = cur[cur.length-1];
@@ -83,8 +84,8 @@ jQuery(function($){
 	       // Set/remove active class
 	       menuItems
 	         .parent().removeClass("active")
-	         .end().filter("[href=#"+id+"]").parent().addClass("active");
-	   }           
+	         .end().filter("[href='#"+id+"']").parent().addClass("active");
+	   };
 	});
 	/* End menu scrolling */
 	
