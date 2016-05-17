@@ -723,7 +723,7 @@ textarea.materialize-textarea {
 	.custom-nav li a { padding: 25px 15px;}
 }
 
-@media screen and (max-width:1025px ){
+@media screen and (max-width:1024px ){
 	.home-inner {padding: 50px 20px;}
 	#home {height: 390px;}
 	.home-title {font-size: 60px;}
@@ -741,13 +741,13 @@ textarea.materialize-textarea {
 	.single-project-content h2 a {font-size: 16px;}
 }
 
-@media screen and (max-width:801px ){
+@media screen and (max-width:800px ){
 	#home {height: 440px;}
 	.call-to-about {bottom: -75px;}
 	.resume-btn { margin-top: 30px;}
 }
 
-@media(max-width:601px ){
+@media(max-width:600px ){
 	#home {height: 320px;}
 	.home-title {font-size: 35px;}
 	.home-inner {padding: 10px;}
@@ -764,6 +764,21 @@ textarea.materialize-textarea {
 	.education-area{margin-top: 5px;}
 	.projects-area{margin-top: 20px;}
 	.contact{margin-top: 5px;}
+}
+
+@media(max-width:480px ){
+	nav .brand-logo { font-size: 1.1rem; }
+	.call-to-about {left: 43%;bottom: -165px;}
+	.side-nav {width: 200px;}
+	.side-nav a {height: 45px;line-height: 50px;}
+  	.home-inner { padding: 0;}
+  	.about-inner-left {margin-bottom: 20px;}
+  	.personal-information > h3 {font-size: 20px;}
+  	.section-title {font-size: 25px;}
+  	.single-skill-title {font-size: 15px;}
+  	.single-experience-title {font-size: 15px;}
+  	.single-education-title {font-size: 15px;}
+  	.single-project-content h2 a {font-size: 14px;}
 }
 
 /*
