@@ -299,10 +299,15 @@ nav .brand-logo {
   padding-top: 20px;
   color: #727272;
   font-weight: 500;
+  font-size: 15px;
 }
 
 .single-skill ul {
   padding-left: 25px;
+}
+
+.single-skill li {
+  font-size: 15px;
 }
 
 .single-skill ul>li{  
@@ -357,6 +362,7 @@ nav .brand-logo {
 
 .single-experience .card-title {
   font-weight: 500;
+  font-size: 20px;
   padding-top: 10px;
 }
 
@@ -371,6 +377,10 @@ nav .brand-logo {
 
 .single-experience ul {
   padding-left: 25px;
+}
+
+.single-experience li {
+  font-size: 15px;
 }
 
 .single-experience ul>li{  
@@ -427,6 +437,7 @@ nav .brand-logo {
 
 .single-education .card-title {
   font-weight: 500;
+  font-size:20px;
   padding-top: 10px;
 }
 
@@ -437,15 +448,6 @@ nav .brand-logo {
 .single-education p {
   padding-top: 15px;
   font-weight: 300;
-}
-
-.single-education ul {
-  padding-left: 25px;
-}
-
-.single-education ul>li{  
-  list-style: disc;
-  color: #555;
 }
 
 
@@ -502,6 +504,11 @@ nav .brand-logo {
 
 .single-project .card .card-image {
   padding: 5px;
+}
+
+.single-project .card-content p {
+  font-size:15px;
+  font-weight:300;
 }
 
 /* Individual project pages */
@@ -725,6 +732,24 @@ textarea.materialize-textarea {
 	.contact-map{height: 492px;}
 }
 
+/*
+@media(max-width:1023px ){
+}
+@media(max-width:799px ){
+}
+@media(max-width:767px ){
+}
+@media(max-width:639px ){
+}
+@media(max-width:599px ){
+}
+@media(max-width:479px ){
+}
+@media(max-width:359px ){
+}
+@media(max-width:319px ){
+}
+*/
 @media(max-width:991px ){
 	.custom-nav li a { padding: 25px 20px;}
 	.call-to-about {bottom: -95px;left: 45.5%;}
@@ -769,6 +794,8 @@ textarea.materialize-textarea {
   	.header-title { font-size: 20px;}
   	.card .card-content p, .card .card-reveal p {font-size: 13px;}
   	.card .card-content ul li, .card .card-reveal ul li {font-size: 13px;}
+  	.card .card-title {font-size: 15px;}
+  	.single-skill-title, .single-experience-title, .single-education-title {font-size: 15px;}
 }
 
 @media(max-width:360px ){
@@ -786,7 +813,7 @@ textarea.materialize-textarea {
 	.call-to-about {bottom: -120px; left: 39%;}
 	.home-title { font-size: 30px;}
   	.section-title { font-size: 14px;}
-  	.reveal-title {font-size: 17px !important;}
+  	.reveal-title {font-size: 14px !important;}
   	.single-skill-title { font-size: 17px !important;}
   	.up-btn {left: 39%;}
   	.header-title {font-size: 16px;line-height: 30px;}
