@@ -732,6 +732,13 @@ textarea.materialize-textarea {
 	.single-skill-title {line-height: normal;}
 }
 
+@media screen and (max-width:991px ){
+	.custom-nav li a { padding: 25px 20px;}
+	.home-title {font-size: 55px;}
+	.call-to-about {bottom: -85px;}
+	.home-inner {padding: 30px;}
+}
+
 
 
 /*
