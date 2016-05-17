@@ -729,11 +729,6 @@ textarea.materialize-textarea {
     width: 85%; }
 }
 
-@media(max-width:1199px ){
-	.custom-nav li a { padding: 25px 15px;}
-	.contact-map{height: 492px;}
-}
-
 /*
 @media(max-width:1023px ){
 }
@@ -751,7 +746,16 @@ textarea.materialize-textarea {
 }
 @media(max-width:319px ){
 }
-*/
+
+
+
+
+
+@media(max-width:1199px ){
+	.custom-nav li a { padding: 25px 15px;}
+	.contact-map{height: 492px;}
+}
+
 @media(max-width:991px ){
 	.custom-nav li a { padding: 25px 20px;}
 	.call-to-about {bottom: -95px;left: 45.5%;}
@@ -821,3 +825,5 @@ textarea.materialize-textarea {
   	.header-title {font-size: 16px;line-height: 30px;}
   	.children {margin-left: 10px;}
 }
+
+*/
