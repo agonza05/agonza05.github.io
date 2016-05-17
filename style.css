@@ -729,23 +729,19 @@ textarea.materialize-textarea {
     width: 85%; }
 }
 
-@media(max-width:1199px ){
+@media screen and (max-width:1199px ){
 	.custom-nav li a { padding: 25px 15px;}
 	.contact-map{height: 492px;}
 }
 
-@media(max-width:1025px ){
+@media screen and (max-width:1025px ){
 	.home-inner {padding: 50px 80px;}
+	.home-title {font-size: 55px;}
 	.call-to-about {bottom: -95px;left: 45.5%;}
 	.contact-map{height: 460px;}
 }
 
-@media(max-width:991px ){
-	.custom-nav li a { padding: 25px 20px;}
-	.home-inner {padding: 30px;}
-  	.home-title {font-size: 55px;}
-	.call-to-about {bottom: -95px;left: 45.5%;}
-}
+
 
 /*
 @media(max-width:1023px ){
