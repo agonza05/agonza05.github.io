@@ -5,7 +5,22 @@
     <description>Blog for collecting thoughts while learning to code. Used as a simple repository for future reference.
 </description>
     <link>
-    https://agonza05.github.io/blog</link>
+    http://agonza05.github.io/blog</link>
+    
+      
+      <item>
+        <title>What Is Jekyll</title>
+        
+          <description>&lt;p&gt;﻿When I first decided to start blogging, I heard about Jekyll and it was a simpler and improved version of &lt;a href=&quot;https://ghost.org&quot;&gt;Ghost&lt;/a&gt; (which also was an improved version of WordPress). As expected, I went straightaway to the &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll website&lt;/a&gt; to open an account to start blogging.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 May 2016 00:00:00 +0200</pubDate>
+        <link>
+        http://agonza05.github.io/blog/what-is-jekyll.html</link>
+        <guid isPermaLink="true">http://agonza05.github.io/blog/what-is-jekyll.html</guid>
+      </item>
+      
     
       
       <item>
@@ -17,8 +32,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0100</pubDate>
         <link>
-        https://agonza05.github.io/blog/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://agonza05.github.io/blog/welcome-to-jekyll.html</guid>
+        http://agonza05.github.io/blog/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://agonza05.github.io/blog/welcome-to-jekyll.html</guid>
       </item>
       
     
