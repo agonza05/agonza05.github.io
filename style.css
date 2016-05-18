@@ -522,7 +522,7 @@ nav .brand-logo {
 }
 
 /*--------------------*/
-/*     0. Footer      */
+/*     8. Footer      */
 /*--------------------*/
 
 
@@ -705,7 +705,7 @@ textarea.materialize-textarea {
 
 
 /*--------------------*/
-/*   0. Responsive    */
+/*   9. Responsive    */
 /*--------------------*/
 
 
@@ -798,97 +798,3 @@ textarea.materialize-textarea {
   	.single-education .card-title {font-size: 15px;}
   	.single-experience .card-title {font-size: 15px;}
 }
-
-/*
-
-@media(max-width:639px ){
-}
-@media(max-width:599px ){
-}
-@media(max-width:479px ){
-}
-@media(max-width:359px ){
-}
-@media(max-width:319px ){
-}
-
-
-
-
-
-@media(max-width:1199px ){
-	.custom-nav li a { padding: 25px 15px;}
-	.contact-map{height: 492px;}
-}
-
-@media(max-width:991px ){
-	.custom-nav li a { padding: 25px 20px;}
-	.call-to-about {bottom: -95px;left: 45.5%;}
-	.home-inner {padding: 30px;}
-  	.home-title {font-size: 55px;}
-  	.resume-btn { margin-top: 30px;}
-  	.card .card-content p, .card .card-reveal p {font-size: 13px;}
-  	.card .card-content ul li, .card .card-reveal ul li {font-size: 13px;}
-  	.contact-map{height: 484px;}
-  	.up-btn {left: 45.5%;}
-}
-
-@media(max-width:767px ){
-	.home-inner { padding: 10px;}
-  	.home-title {font-size: 35px;}
-  	.left-sidebar{display: table-footer-group;float: none !important;}
- 	.swith-to-left{display: table-header-group;float: none !important;}
- 	.header-title {font-size: 30px;}
-  	.card .card-content p, .card .card-reveal p {font-size: 13px;}
-  	.card .card-content ul li, .card .card-reveal ul li {font-size: 13px;}
-}
-
-@media(max-width:480px ){
-	nav .brand-logo { font-size: 1.1rem; }
-	.call-to-about {left: 43%;bottom: -165px;}
-	.side-nav {width: 200px;}
-  	.side-nav a {height: 45px;line-height: 50px;}
-  	.home-inner { padding: 0;}
-  	.home-title {font-size: 35px;}
-  	.home-inner > p {font-size: 16px;}
-  	.about-inner-left {margin-bottom: 20px;}
-  	.about-inner-right > h3 { font-size: 20px;}
-  	.about-inner-right > p { font-size: 13px;}
-  	.personal-information > h3 {font-size: 20px;}
-  	.personal-information ul li {font-size: 13px;}
-  	.section-title {font-size: 25px;line-height: 1; margin-bottom: 30px;}
-  	.skills-inner p, .experience-inner p, .education-inner p, .projects-inner p, #footer p {font-size: 13px;line-height: 25px;}
-  	.contact-map {height: 350px;margin-top: 30px;}
-  	.copyright-info {text-align: center; width: 100%;margin-top: 5px;}
-  	.design-info {text-align: center;width: 100%;margin-top: 15px;margin-bottom: 0px;}
-  	.up-btn {left: 43%;}
-  	.header-title { font-size: 20px;}
-  	.card .card-content p, .card .card-reveal p {font-size: 13px;}
-  	.card .card-content ul li, .card .card-reveal ul li {font-size: 13px;}
-  	.card .card-title {font-size: 15px;}
-  	.single-skill-title, .single-experience-title, .single-education-title {font-size: 15px;}
-}
-
-@media(max-width:360px ){
-	.call-to-about {left: 40.7%;bottom: -145px;}
-	.resume-btn { margin-left: 0;}
-	.copyright-info { font-size: 12px;}
-	.design-info {font-size: 13px;}
-	.up-btn {left: 40.7%;}
-  	.personal-information > h3 {font-size: 18px;}
-  	.reply-btn {font-size: 12px;padding: 6px 8px;}
-}
-
-@media(max-width:320px ){
-	nav .brand-logo { font-size: 1.1rem; }
-	.call-to-about {bottom: -120px; left: 39%;}
-	.home-title { font-size: 30px;}
-  	.section-title { font-size: 14px;}
-  	.reveal-title {font-size: 14px !important;}
-  	.single-skill-title { font-size: 17px !important;}
-  	.up-btn {left: 39%;}
-  	.header-title {font-size: 16px;line-height: 30px;}
-  	.children {margin-left: 10px;}
-}
-
-*/
