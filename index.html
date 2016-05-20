@@ -480,21 +480,21 @@
 												<!-- Start Contact Form -->
 												<div class="col s12 m6 l6">
 													<div class="contact-form">
-														<form>
+														<form action="https://formspree.io/agonza05@outlook.com" method="post">
 															<div class="input-field">
-																<input type="text" class="input-box" id="contact-name" name="contactName" />
+																<input type="text" class="input-box validate" id="contact-name" name="contactName" />
 																<label class="input-label" for="contact-name">Name</label>
 															</div>
 															<div class="input-field">
-																<input type="email" class="input-box" id="email" name="contactEmail" />
-																<label class="input-label" for="email">Email</label>
+																<input type="email" class="input-box validate" id="email" name="contactEmail" />
+																<label class="input-label" for="email" data-error="Not a valid email">Email</label>
 															</div>
 															<div class="input-field">
-																<input type="text" class="input-box" id="subject" name="contactSubject" />
+																<input type="text" class="input-box validate" id="subject" name="contactSubject" />
 																<label class="input-label" for="subject">Subject</label>
 															</div>
 															<div class="input-field textarea-input">
-																<textarea class="materialize-textarea" id="textarea1" name="contactMessage"></textarea>
+																<textarea class="materialize-textarea validate" id="textarea1" name="contactMessage"></textarea>
 																<label class="input-label" for="textarea1">Message</label>
 															</div>
 															<button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send message</button>
