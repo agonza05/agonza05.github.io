@@ -482,19 +482,19 @@
 													<div class="contact-form">
 														<form action="https://formspree.io/agonza05@outlook.com" method="post">
 															<div class="input-field">
-																<input type="text" class="input-box validate" id="contact-name" name="contactName" />
+																<input type="text" class="input-box validate" id="contact-name" name="contactName" required="required" aria-required="true" />
 																<label class="input-label" for="contact-name">Name</label>
 															</div>
 															<div class="input-field">
-																<input type="email" class="input-box validate" id="email" name="contactEmail" />
+																<input type="email" class="input-box validate" id="email" name="contactEmail" required="required" aria-required="true" />
 																<label class="input-label" for="email" data-error="Not a valid email">Email</label>
 															</div>
 															<div class="input-field">
-																<input type="text" class="input-box validate" id="subject" name="contactSubject" />
+																<input type="text" class="input-box validate" id="subject" name="contactSubject" required="required" aria-required="true" />
 																<label class="input-label" for="subject">Subject</label>
 															</div>
 															<div class="input-field textarea-input">
-																<textarea class="materialize-textarea validate" id="textarea1" name="contactMessage"></textarea>
+																<textarea class="materialize-textarea validate" id="textarea1" name="contactMessage" required="required" aria-required="true"></textarea>
 																<label class="input-label" for="textarea1">Message</label>
 															</div>
 															<button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send message</button>
